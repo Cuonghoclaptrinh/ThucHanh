@@ -58,7 +58,7 @@ export default function Login({ navigation }) {
                     </View>
                     <Text style={styles.forgetPassword}>forgot password ? </Text>
                     <TouchableOpacity style={styles.loginButton} >
-                        <Text style={styles.loginText} onPress={() => { navigation.navigate("ShopScreen") }}>Log In</Text>
+                        <Text style={styles.loginText} onPress={() => { navigation.navigate("HomeScreen") }}>Log In</Text>
                     </TouchableOpacity>
                     <View style={styles.signupContainer}>
                         <Text>Don't have an account? </Text>

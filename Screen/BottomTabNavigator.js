@@ -4,7 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { Icon } from "react-native-vector-icons/MaterialIcons";
 
 import ShopScreen from "../screens/ShopScreen";
-import ExploreScreen from "../screens/ExploreScreen";
+import ExploreScreen from "./Explore";
 import CartScreen from "../screens/CartScreen";
 import FavouriteScreen from "../screens/FavouriteScreen";
 import AccountScreen from "../screens/AccountScreen";

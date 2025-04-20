@@ -7,11 +7,14 @@ import OnboardingScreen from './Screen/OnboardingScreen';
 import SignInScreen from './Screen/SignInScreen';
 import NumberScreen from './Screen/NumberScreen';
 import VerificationScreen from './Screen/VerificationScreen';
-
+import ExploreScreen from './Screen/Explore';
+import BeveragesScreen from './Screen/Beverages';
 import SelectLocation from './Screen/SelectLocation';
 import Login from './Screen/Login';
 import Signup from './Screen/Signup';
 import ShopScreen from './Screen/ShopScreen';
+import HomeScreen from './Screen/HomeScreen';
+import ProductDetail from './Screen/ProductDetail';
 
 
 const Stack = createStackNavigator();
@@ -28,7 +31,13 @@ export default function App() {
         <Stack.Screen name="SelectLocation" component={SelectLocation} />
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Signup" component={Signup} />
-        <Stack.Screen name="ShopScreen" component={ShopScreen} />
+        <Stack.Screen name="HomeScreen" component={HomeScreen} />
+        <Stack.Screen name="Beverages" component={BeveragesScreen} />
+        <Stack.Screen name="Explore" component={ExploreScreen} />
+        <Stack.Screen name="ProductDetail" component={ProductDetail} />
+        <Stack.Screen name="Search" component={ExploreScreen} />
+        {/* <Stack.Screen name="Explore" component={ExploreScreen} /> */}
+
       </Stack.Navigator>
     </NavigationContainer>
   );

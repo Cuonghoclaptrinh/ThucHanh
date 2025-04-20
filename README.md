@@ -10,4 +10,10 @@
 ![anh8](./assets/anh8.jpg)
 ![anh9](./assets/anh9.jpg)
 ![anh10](./assets/anh10.jpg)
+![anh11](./assets/home.jpg)
+![anh12](./assets/beveragesscreen.jpg)
+![anh13](./assets/findproduct.jpg)
+![anh14](./assets/productdetail.jpg)
+
+
 
